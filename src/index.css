@@ -136,6 +136,11 @@ button {
     color: #770015;
 }
 
+.bg-brown {
+    background-color: #770015 !important;
+    color: #fff !important;
+}
+
 .footer-link h5 {
     text-align: left;
 }
@@ -467,4 +472,14 @@ button {
     .layer1 .input-field input {
         width: 50%;
     }
+}
+
+.bg-special{
+    background-image: url('/assets/images/bg.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
 }
